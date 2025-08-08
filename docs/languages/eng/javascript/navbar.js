@@ -12,17 +12,17 @@ navbar.innerHTML = `
                     <div class="lg:flex items-center gap-10 hidden">
                         <ul id="navbarLinks" data-aos="fade-left"
                             class="lg:flex text-lg hidden items-center text-zinc-200 gap-10">
-                            <li><a href="/index.html"
-                                    class="hover:opacity-60 tracking-wide  transition-all duration-500">Heim</a>
+                            <li><a href="/docs/languages/eng/index.html"
+                                    class="hover:opacity-60 tracking-wide  transition-all duration-500">Home</a>
                             </li>
-                            <li><a href="/about.html"
-                                    class="hover:opacity-60 tracking-wide transition-all duration-500">Über uns</a>
+                            <li><a href="/docs/languages/eng/about.html"
+                                    class="hover:opacity-60 tracking-wide transition-all duration-500">About Us</a>
                             </li>
-                            <li><a href="/gallery.html"
-                                    class="hover:opacity-60 tracking-wide transition-all duration-500">Galerie</a>
+                            <li><a href="/docs/languages/eng/gallery.html"
+                                    class="hover:opacity-60 tracking-wide transition-all duration-500">Gallery</a>
                             </li>
-                            <li><a href="/contact.html"
-                                    class="hover:opacity-60 tracking-wide transition-all duration-500">Kontakt</a>
+                            <li><a href="/docs/languages/eng/contact.html"
+                                    class="hover:opacity-60 tracking-wide transition-all duration-500">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -30,23 +30,24 @@ navbar.innerHTML = `
                 <div data-aos="fade-left" class="lg:flex hidden gap-3">
                 
                 <div class="flex items-center justify-center gap-6 relative">
-                
+               
                         <div id="language" class="cursor-pointer text-white flex items-center gap-1">
                             <i class="fa-solid fa-globe text-2xl"></i>
-                            <span class="font-medium uppercase">DE</span>
+                            <span class="font-medium uppercase">EN</span>
                         </div>
 
                         <div id="langDropdown"
                             class="absolute fadeIn top-14 w-20 -left-2 glass p-3 rounded-xl shadow-md hidden">
                             <ul class="space-y-3">
                                 <li class="cursor-pointer hover:opacity-60 transition-all duration-500"><a
-                                        href="/docs/languages/eng/index.html" class="block w-full">EN</a></li>
-                                <li class="cursor-pointer hover:opacity-60 transition-all duration-500"><a
                                         href="/index.html" class="block w-full">DE</a></li>
+                                <li class="cursor-pointer hover:opacity-60 transition-all duration-500"><a
+                                        href="docs/languages/eng/index.html" class="block w-full">EN</a></li>
                             </ul>
                         </div>
 
-                         <a href="/contact.html" class="bg-[#1f9c3c] text-white px-10 py-3.5 rounded-lg font-medium">Erste Schritte</a>
+                         <a href="/docs/languages/eng/contact.html" class="bg-[#1f9c3c] text-white px-10 py-3.5 rounded-lg font-medium">Get
+                    Started</a>
                         
                     </div>
 
@@ -63,23 +64,23 @@ navbar.innerHTML = `
         </div>
         <div class="p-6">
             <ul class="flex relative z-50 text-[#1D2939] flex-col gap-7">
-                <li><a href="/index.html"
-                        class="hover:opacity-60 text-nowrap tracking-wide  transition-all duration-500">Heim</a>
+                <li><a href="/docs/languages/eng/index.html"
+                        class="hover:opacity-60 text-nowrap tracking-wide  transition-all duration-500">Home</a>
                 </li>
-                <li><a href="/about.html"
-                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">Über uns</a>
+                <li><a href="/docs/languages/eng/about.html"
+                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">About Us</a>
                 </li>
-                <li><a href="/gallery.html"
-                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">Galerie</a>
+                <li><a href="/docs/languages/eng/gallery.html"
+                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">Gallery</a>
                 </li>
-                <li><a href="/contact.html"
-                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">Kontakt</a>
+                <li><a href="/docs/languages/eng/contact.html"
+                        class="hover:opacity-60 text-nowrap tracking-wide transition-all duration-500">Contact Us</a>
                 </li>
             </ul>
             <div class="flex mt-5 items-center gap-3">
                 <a href="/docs/languages/eng/index.html"
-                    class="block border border-zinc-600 p-2 text-center rounded-lg w-full">ENG</a>
-                <a href="/index.html" class="block border border-black bg-black text-white p-2 text-center rounded-lg w-full">DE</a>
+                    class=" block border border-black bg-black text-white p-2 text-center rounded-lg w-full">ENG</a>
+                <a href="/index.html" class="block border border-zinc-600 p-2 text-center rounded-lg w-full">DE</a>
             </div>
         </div>
     </div>
